@@ -1,5 +1,5 @@
 html {
-  font-family: 'Georgia';
+  font-family: Georgia;
   color: #fff;
 }
 
@@ -14,6 +14,13 @@ html {
   background-size: cover;
 }
 
-.btn--ghost {
+.btn {
   color: #fff;
+  border-color: #97a49b;
+}
+
+.btn:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #97a49b;
 }
