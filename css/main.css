@@ -1,9 +1,13 @@
 html {
-  font-family: Georgia;
+  font-family: Georgia, serif;
   color: #fff;
 }
 
-.text {
+header {
+  max-height: 500px;
+}
+
+.content {
   background-color: #495562;
 }
 
@@ -11,16 +15,59 @@ html {
   background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, 0));
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .btn {
   color: #fff;
   border-color: #97a49b;
+  max-width: 25em;
 }
 
 .btn:hover {
   border-color: #fff;
   background-color: #fff;
   color: #97a49b;
+}
+
+@media only screen and (min-width: 42em) {
+
+  header {
+    position: relative;
+  }
+
+  .content {
+    max-width: 50em;
+  }
+
+  .text {
+    position: absolute;
+    background-color: transparent;
+    max-width: 25em;
+    bottom: 1em;
+    left: 0;
+  }
+
+  .h1 {
+    margin-bottom: 0;
+  }
+
+  .book {
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+  }
+
+  .btn {
+    color: #fff;
+    border-color: #efefef;
+  }
+
+  .img {
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, 0));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-height: 500px;
+  }
+
 }
