@@ -1,0 +1,19 @@
+html {
+  font-family: 'Georgia';
+  color: #fff;
+}
+
+.text {
+  background-color: #495562;
+}
+
+.img {
+  background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, 0));
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn--ghost {
+  color: #fff;
+}
